@@ -1,0 +1,32 @@
+/* 全体設定 */
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+/* 色（使い回し） */
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+/* h1の装飾 */
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.2em;
+  text-shadow: 2px 2px 4px gray;
+  border-bottom: 3px solid rgb(115, 115, 114);
+}
+
+/* basicの中のpだけ太字 */
+#basic p {
+  font-weight: bold;
+}
